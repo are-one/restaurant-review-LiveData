@@ -48,11 +48,13 @@ class MainActivity : AppCompatActivity() {
         })
 
         mainViewModel.snackbarText.observe(this, {
-            Snackbar.make(
-                window.decorView.rootView,
-                it,
-                Snackbar.LENGTH_SHORT
-            ).show()
+            it.getContentIfNotHandled()?.let { snackbarText ->
+                Snackbar.make(
+                    window.decorView.rootView,
+                    snackbarText,
+                    Snackbar.LENGTH_SHORT
+                ).show()
+            }
         })
 
         binding.btnSend.setOnClickListener { view ->
