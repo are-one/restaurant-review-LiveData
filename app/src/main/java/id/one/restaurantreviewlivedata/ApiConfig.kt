@@ -1,4 +1,4 @@
-package id.one.restaurantreview
+package id.one.restaurantreviewlivedata
 
 import androidx.viewbinding.BuildConfig
 import okhttp3.OkHttpClient

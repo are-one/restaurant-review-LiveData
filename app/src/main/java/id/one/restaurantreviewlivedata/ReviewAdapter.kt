@@ -1,4 +1,4 @@
-package id.one.restaurantreview
+package id.one.restaurantreviewlivedata
 
 import android.view.LayoutInflater
 import android.view.View

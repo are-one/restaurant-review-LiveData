@@ -1,4 +1,4 @@
-package id.one.restaurantreview
+package id.one.restaurantreviewlivedata
 
 import retrofit2.Call
 import retrofit2.http.*

@@ -1,4 +1,4 @@
-package id.one.restaurantreview
+package id.one.restaurantreviewlivedata
 
 import org.junit.Test
 

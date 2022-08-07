@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Restaurant Review</string>
+    <string name="app_name">Restaurant Review Live Data</string>
     <string name="title">Judul</string>
     <string name="description">Description</string>
     <string name="review">Review</string>

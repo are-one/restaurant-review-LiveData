@@ -1,4 +1,4 @@
-package id.one.restaurantreview
+package id.one.restaurantreviewlivedata
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
